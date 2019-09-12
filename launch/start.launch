@@ -1,0 +1,28 @@
+<launch>
+
+  <node name="lidar_camera" pkg="lidar_camera" type="lidar_camera">
+  </node>
+  <!--serial communication between arduino and pc via usb /-->
+  <node name="arduino_serial_node" pkg="rosserial_python" type="serial_node.py" output="screen">
+    <param name="port" value="/dev/rikibase" />
+    <param name="baud" value="57600" />
+  </node>
+
+  <node pkg="imu_calib" type="apply_calib" name="apply_calib" output="screen" respawn="false">
+    <param name="calib_file" value="$(find rikirobot)/param/imu/imu_calib.yaml" />
+  </node>
+
+
+  <node pkg="imu_filter_madgwick" type="imu_filter_node" name="imu_filter_madgwick" output="screen" respawn="false" >
+     <param name="fixed_frame" value="odom" />
+     <param name="use_mag" value="true" />
+     <param name="publish_tf" value="true" />
+     <param name="use_magnetic_field_msg" value="true" />  
+     <param name="world_frame" value="enu" />
+  </node>
+
+  <node name="riki_base_node" pkg="rikirobot" type="riki_base_node">
+    <param name="angular_scale" type="double" value="0.85" />
+    <param name="linear_scale" type="double" value="1.0" />
+  </node>
+</launch>
