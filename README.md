@@ -1,7 +1,8 @@
 # Cone-Track-Car
 
 
- ![image](https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/1.jpg)
+ ![image](https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/1.jpg){:class="img-responsive"}
+ ![image](https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/1.jpg){:height="50%" width="50%"}
  
  ##1.Cone Identification and Lidar-Camera Fusion
  ![image](https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/3.png)
