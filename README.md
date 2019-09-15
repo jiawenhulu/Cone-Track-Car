@@ -4,7 +4,7 @@
  <img src="https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/1.jpg" alt="alt text" width="320" height="240">
  
 ## 1.Cone Identification and Lidar-Camera Fusion
- ![image](https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/3.png)
+ <img src="https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/3.png" alt="alt text" width="320" height="240">
  
 ## 2.Middleline
  ![image](https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/4.png)
