@@ -8,6 +8,7 @@
  
 ## 2.Middleline
  ![image](https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/4.png)
+ <img src="https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/4.png" alt="alt text" width="400" height="280">
  
 ## Video:
  youtube:https://www.youtube.com/watch?v=8iP3zGjjsqI
