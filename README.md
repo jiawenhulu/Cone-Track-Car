@@ -1,4 +1,4 @@
-# Cone-Track-Car
+# Cone Tracking Car
 
 
  <img src="https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/1.jpg" alt="alt text" width="360" height="240">
