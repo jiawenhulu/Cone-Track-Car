@@ -220,7 +220,7 @@ bool convex_hull_pointing_up(vector<Point> contour)
     return true;
 }
 
-
+//from OpenCv
 Rect pointSetbboundingRect( const Mat& points )
 {
     int npoints = points.checkVector(2);
