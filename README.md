@@ -6,7 +6,7 @@
 ## 1.Cone Identification and Lidar-Camera Fusion
  <img src="https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/3.png" alt="alt text" width="320" height="240">
  
-## 2.Code Sort
+## 2.Cone Sort
  <img src="https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/5.png" alt="alt text" width="640" height="280">
  
 ## 3.Middleline
