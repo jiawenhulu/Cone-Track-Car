@@ -12,6 +12,9 @@
 ## 3.Middleline
  <img src="https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/4.png" alt="alt text" width="640" height="280">
  
+## 4.Lidar Slam(Cartographer)
+ <img src="https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/6.png" alt="alt text" width="320" height="240">
+ 
 ## Video:
  youtube:https://www.youtube.com/watch?v=8iP3zGjjsqI
  bilibili:https://www.bilibili.com/video/av56227812
