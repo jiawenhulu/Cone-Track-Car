@@ -38,7 +38,8 @@ ConeInfo MiddleLane::path_lane(Mat img,ConeInfo left,ConeInfo right,ConeInfo obj
     /*no cone*/
     if(left.u.size() == 0 && right.u.size() == 0)
     {
-    	ConeInfo barrPos = Barrier_judge(obj);
+	middleLane.speed = 0;
+    /*	ConeInfo barrPos = Barrier_judge(obj);
     	if(barrPos.u.size() == 0){
     		middleLane.speed = 0;
     	}
@@ -48,7 +49,7 @@ ConeInfo MiddleLane::path_lane(Mat img,ConeInfo left,ConeInfo right,ConeInfo obj
     			lidarU += barrPos.u[i];
     		}
     		middleLane.goal = int(lidarU / barrPos.u.size());
-    		middleLane.speed = 0.15;
+    		middleLane.speed = 0.15;*/
     		//ROS_INFO("i:%d",middleLane.goal);
     	} 	    	
     }
