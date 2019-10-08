@@ -9,8 +9,10 @@
 ## 2.Cone Sort
  <img src="https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/5.png" alt="alt text" width="640" height="280">
  
-## 3.Middleline
+## 3.Middleline or A Star
  <img src="https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/4.png" alt="alt text" width="640" height="280">
+ 
+ <img src="https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/7.png" alt="alt text" width="640" height="280">
  
 ## 4.Lidar Slam(Cartographer)
  <img src="https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/6.png" alt="alt text" width="320" height="240">
