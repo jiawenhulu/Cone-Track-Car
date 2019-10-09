@@ -20,5 +20,8 @@
 ## Video:
  youtube:https://www.youtube.com/watch?v=8iP3zGjjsqI
  bilibili:https://www.bilibili.com/video/av56227812
+ 
+ ## Blog:
+ 我的中文博客，讲了下激光雷达和摄像头的联合标定方法：https://blog.csdn.net/weixin_43597710/article/details/102467126
 
 
