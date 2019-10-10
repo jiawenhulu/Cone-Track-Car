@@ -42,10 +42,10 @@ struct scanDot {
 
 struct ConeInfo
 {
-    vector<int> x;  //x axis from image (from left to right)
-    vector<int> y;  //y axis from image (from the top bottom)
+    vector<int> x;  //x axis from image (left to right)
+    vector<int> y;  //y axis from image (tup to down)
     vector<int> u;  //u axis from lidar (forward)
-    vector<int> v;  //v axis from lidar (from left to right)
+    vector<int> v;  //v axis from lidar (left to right)
     vector<int> width;
     vector<int> height;
     vector<vector<Point> >hulls_cone;
