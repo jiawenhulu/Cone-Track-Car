@@ -13,7 +13,7 @@ float a[9] = {-7.2,-4.4,264.8,-0.021,-1.9,1454,-0.00043,-0.0135,1};
 
 ConeInfo Cone_position(Mat img,ConeInfo contours_cone,ConeInfo lidar_point,int color);
 ConeInfo Draw_lane(Mat img_src, ConeInfo obj, int obj_size, int color);
-ConeInfo sort_distance(ConeInfo value_buf, int obj_size);
+//ConeInfo sort_distance(ConeInfo value_buf, int obj_size);
 ConeInfo sort_cone(ConeInfo value_buf, int obj_size);
 ConeInfo Combin_lane(ConeInfo left,ConeInfo right);
 //ConeInfo bresenham(int x1, int y1, int x2, int y2);
@@ -367,7 +367,7 @@ ConeInfo Combin_lane(ConeInfo left,ConeInfo right)
     combine.v.insert(combine.v.end(),right.v.begin(),right.v.end());
     return combine;
 }
-
+/*
 ConeInfo sort_distance(ConeInfo value_buf, int obj_size)
 {
      for (int out = 1; out < obj_size; out++)
@@ -384,7 +384,7 @@ ConeInfo sort_distance(ConeInfo value_buf, int obj_size)
      }
 
     return value_buf;
-}
+}*/
 
 ConeInfo sort_cone(ConeInfo value_buf, int obj_size)
 {
