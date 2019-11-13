@@ -49,9 +49,9 @@ ConeInfo MiddleLane::path_lane(Mat img,ConeInfo left,ConeInfo right,ConeInfo obj
     			lidarU += barrPos.u[i];
     		}
     		middleLane.goal = int(lidarU / barrPos.u.size());
-    		middleLane.speed = 0.15;*/
+    		middleLane.speed = 0.15;
     		//ROS_INFO("i:%d",middleLane.goal);
-    	} 	    	
+    	} */	    	
     }
     else{
        if(left.u.size() == 0)  //no leftcone
