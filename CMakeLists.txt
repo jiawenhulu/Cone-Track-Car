@@ -52,7 +52,7 @@ include_directories(
 
 aux_source_directory(. DIR_SRCS)
 add_subdirectory(
-  /home/ubuntu/catkin_ws/src/lidar_camera/src/lib
+  ${CMAKE_SOURCE_DIR}/lidar_camera/src/lib
 )
 
 catkin_package()
