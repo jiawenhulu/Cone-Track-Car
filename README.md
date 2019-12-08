@@ -24,10 +24,7 @@
  ## Blog:
  我的中文博客，讲了下激光雷达和摄像头的联合标定方法：https://blog.csdn.net/weixin_43597710/article/details/102467126
  
- ## 其他：
- 使用的话下载下来将包名改为lidar_camera就可以catkin_make啦，输入量是激光雷达的topic:/scan，摄像头直接用opencv获取的。如果这个项目恰巧对您有帮助，您也恰巧有雅兴打赏一点的话...我的微信收款码^_^
  
- <img src="https://github.com/jiawenhulu/Cone-Track-Car/blob/master/image/8.png" alt="alt text" width="240" height="240">
 
  
 
