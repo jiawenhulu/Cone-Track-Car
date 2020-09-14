@@ -21,8 +21,9 @@
  youtube:https://www.youtube.com/watch?v=8iP3zGjjsqI
  bilibili:https://www.bilibili.com/video/av56227812
  
- ## Blog:
+ ## Blog & Tool:
  我的中文博客，讲了下激光雷达和摄像头的联合标定方法：https://blog.csdn.net/weixin_43597710/article/details/102467126
+ 所有资料和工具可在网盘链接中下载: https://pan.baidu.com/s/1G20v0dXY_2lwzxRoSyx7mQ 提取码: ir9q
  
  
 
